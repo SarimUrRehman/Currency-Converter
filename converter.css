@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #F6E96B;
+    
+}
+.container{
+    background-color: #fff;
+    padding: 5rem;
+    border-radius: 3rem;
+    width: 40vh;
+    
+}
+.container h2{
+    font-size: 2.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    display: inline;
+}
+form{
+    margin: 2rem 0 1rem 0;
+    justify-content: center;
+}
+form select button input{
+    width: 100%;
+}
+.amount p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.2rem;
+}
+.amount input{
+    width: 14rem;
+    height: 2.3rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    outline: transparent;
+   
+}
+.amount input:hover{
+     outline: dodgerblue 2px;
+}
+.dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+form select button {
+    width: 100%;
+   
+   
+}
+
+form i{
+    font-size: 1.2rem;
+    margin-right: 2rem;
+
+}
+.message{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    margin-left: 2.2rem;
+}
+form button{
+    width: 100%;
+    margin-top: 1.2rem;
+    height: 2.2rem;
+    font-size: medium;
+}
+
